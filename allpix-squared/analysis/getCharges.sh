@@ -1,5 +1,5 @@
 #!/bin/sh
-# Author: Shravan
+# Author: Uri
 # Runs the C file on a ROOT file to fetch MCParticle and PixelCharge data
 
 echo "Run folder name: "
@@ -8,7 +8,7 @@ echo "ROOT file name: "
 read RUNFILE
 echo "Data file name: "
 read DATAFILE
-CERNBOX="/eos/user/s/spyavka"
+CERNBOX="/eos/user/u/uepstein/lxplus/allpix/results"
 ROOTFILE="$CERNBOX/$RUNFOLDER/$RUNFILE"
 SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 source $SOURCEFILE
