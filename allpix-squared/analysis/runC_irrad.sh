@@ -6,7 +6,7 @@ echo "Run folder name: "
 read RUNFOLDER
 echo "Output CSV file name: "
 read CSVFILE
-CERNBOX="/eos/user/s/spyavka"
+CERNBOX="/eos/user/u/uepstein/lxplus/allpix/results"
 RUNPATH="$CERNBOX/$RUNFOLDER"
 SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 source $SOURCEFILE
