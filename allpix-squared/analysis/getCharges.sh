@@ -8,7 +8,7 @@ echo "ROOT file name: "
 read RUNFILE
 echo "Data file name: "
 read DATAFILE
-CERNBOX="/eos/user/u/uepstein/lxplus/allpix/results"
+CERNBOX="/eos/user/u/uepstein/lxplus/allpix"
 ROOTFILE="$CERNBOX/$RUNFOLDER/$RUNFILE"
 SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 source $SOURCEFILE
