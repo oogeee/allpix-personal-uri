@@ -6,7 +6,7 @@ echo "Run folder name: "
 read RUNFOLDER
 echo "Config file name: "
 read FILENAME
-CERNBOX="/eos/user/s/spyavka"
+CERNBOX="/eos/user/u/uepstein/lxplus/allpix/results"
 CONFPATH="$CERNBOX/$RUNFOLDER/$FILENAME"
 SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 	# modifies CONF file and runs it
